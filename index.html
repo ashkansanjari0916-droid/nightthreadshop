@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>NightThreadShop — Original Dark Anime All-Over Print Hoodies</title>
+  <meta name="description" content="NightThreadShop: original dark anime art printed seam to seam on all-over-print hoodies. Cracked Mask, Violet Eye, Neon Rain. Free shipping. Code NIGHT10 = 10% off on Etsy.">
+  <meta name="theme-color" content="#05050a">
+  <meta property="og:title" content="NightThreadShop — Wear the Night">
+  <meta property="og:description" content="Three original dark anime all-over-print hoodies. From €74.90, free shipping, code NIGHT10 for 10% off.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/img/cracked-mask-front.webp">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/unbounded.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/space-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/img/cracked-mask-front.webp" as="image">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#shop">Skip to products</a>
+
+  <!-- Promo banner -->
+  <div class="promo" role="region" aria-label="Current offer">
+    <div class="promo__inner">
+      <span class="promo__dot" aria-hidden="true"></span>
+      <span><strong>FREE SHIPPING</strong> on every hoodie</span>
+      <span class="promo__sep" aria-hidden="true">✦</span>
+      <span>Code <button class="code-chip" type="button" data-copy="NIGHT10" aria-label="Copy discount code NIGHT10">NIGHT10</button> = <strong>10% OFF</strong> at Etsy checkout</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav" id="top">
+    <a class="brand" href="#top" aria-label="NightThreadShop home">
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="28" height="28"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b56bff"/><stop offset="1" stop-color="#22e4ff"/></linearGradient></defs><path d="M21.5 4.5a12 12 0 1 0 6 16.2A9.6 9.6 0 0 1 21.5 4.5Z" fill="none" stroke="url(#g)" stroke-width="2.2"/><path d="M5 22.5 27 9.5" stroke="url(#g)" stroke-width="1.4" stroke-dasharray="2 2.4"/></svg>
+      </span>
+      <span class="brand__name">NIGHT<span>THREAD</span></span>
+    </a>
+    <nav class="nav__links" aria-label="Main">
+      <a href="#shop">Shop</a>
+      <a href="#collections">Collections</a>
+      <a href="#technology">Technology</a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="nav__cta">
+      <a class="btn btn--ghost btn--sm" href="https://www.etsy.com/shop/NightThreadShop" target="_blank" rel="noopener">Etsy shop <span aria-hidden="true">↗</span></a>
+      <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <nav aria-label="Mobile">
+      <a href="#shop"><small>01</small>Shop</a>
+      <a href="#collections"><small>02</small>Collections</a>
+      <a href="#technology"><small>03</small>Technology</a>
+      <a href="#about"><small>04</small>About</a>
+      <a href="#faq"><small>05</small>Need to know</a>
+    </nav>
+    <a class="btn btn--primary" href="https://www.etsy.com/shop/NightThreadShop" target="_blank" rel="noopener">Visit our Etsy shop ↗</a>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" aria-label="Intro">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="aurora aurora--v"></div>
+        <div class="aurora aurora--c"></div>
+        <div class="grid-floor"></div>
+        <canvas class="rain" id="rain"></canvas>
+      </div>
+      <div class="hero__inner container">
+        <div class="hero__copy">
+          <p class="eyebrow reveal"><span class="pulse"></span> Drop 01 · Now on Etsy</p>
+          <h1 class="hero__title reveal" data-delay="1">
+            <span class="line">WEAR</span>
+            <span class="line">THE <em class="glow-text">NIGHT.</em></span>
+          </h1>
+          <p class="hero__lead reveal" data-delay="2">Original dark anime artwork, printed seam to seam on all-over-print hoodies. Three designs. Made on demand, just for you.</p>
+          <div class="hero__actions reveal" data-delay="3">
+            <a class="btn btn--primary" href="#shop">Shop the drop</a>
+            <a class="btn btn--ghost" href="https://www.etsy.com/shop/NightThreadShop" target="_blank" rel="noopener">Visit our Etsy shop <span aria-hidden="true">↗</span></a>
+          </div>
+          <ul class="hero__facts reveal" data-delay="4">
+            <li><b>03</b><span>Original designs</span></li>
+            <li><b>€74.90</b><span>Starting price</span></li>
+            <li><b>FREE</b><span>Shipping</span></li>
+          </ul>
+        </div>
+        <div class="hero__visual" data-parallax-root>
+          <div class="halo" aria-hidden="true"></div>
+          <div class="ring" aria-hidden="true"></div>
+          <img class="hero__back" src="assets/img/cracked-mask-back-sm.webp" alt="" aria-hidden="true" width="480" height="630" data-depth="0.25">
+          <img class="hero__front" src="assets/img/cracked-mask-front.webp" alt="Cracked Mask all-over print hoodie, front view: a shattered white mask and one red eye" width="850" height="1100" data-depth="0.6">
+          <div class="hud hud--tl" aria-hidden="true">NT—01 / CRACKED MASK</div>
+          <div class="hud hud--br" aria-hidden="true">ALL-OVER PRINT · FRONT + BACK</div>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#shop" aria-label="Scroll to products"><span></span>Scroll</a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>CRACKED MASK</span><i>✦</i><span>VIOLET EYE</span><i>✦</i><span>NEON RAIN</span><i>✦</i><span>ALL-OVER PRINT</span><i>✦</i><span>FREE SHIPPING</span><i>✦</i><span>CODE NIGHT10</span><i>✦</i>
+        <span>CRACKED MASK</span><i>✦</i><span>VIOLET EYE</span><i>✦</i><span>NEON RAIN</span><i>✦</i><span>ALL-OVER PRINT</span><i>✦</i><span>FREE SHIPPING</span><i>✦</i><span>CODE NIGHT10</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- SHOP -->
+    <section class="section shop" id="shop" aria-labelledby="shop-title">
+      <div class="container">
+        <div class="section__head">
+          <p class="kicker reveal">01 — Shop</p>
+          <h2 class="display reveal" id="shop-title" data-delay="1">THE DROP<span class="dot">.</span></h2>
+          <p class="section__lead reveal" data-delay="2">Three hoodies. Three stories. Each one carries original art on the front, the back and the pocket. Tap a card to flip between front and back.</p>
+        </div>
+
+        <div class="products">
+          <!-- A -->
+          <article class="card reveal" style="--accent:#ff3d7f; --accent2:#b56bff" data-card>
+            <div class="card__media">
+              <span class="card__tag">NT—01</span>
+              <div class="card__glow" aria-hidden="true"></div>
+              <img class="card__img card__img--front" src="assets/img/cracked-mask-front-sm.webp" srcset="assets/img/cracked-mask-front-sm.webp 495w, assets/img/cracked-mask-front.webp 850w" sizes="(max-width: 700px) 90vw, 30vw" alt="Cracked Mask hoodie, front" width="495" height="640" loading="lazy">
+              <img class="card__img card__img--back" src="assets/img/cracked-mask-back-sm.webp" srcset="assets/img/cracked-mask-back-sm.webp 488w, assets/img/cracked-mask-back.webp 838w" sizes="(max-width: 700px) 90vw, 30vw" alt="Cracked Mask hoodie, back" width="488" height="640" loading="lazy">
+              <div class="card__toggle" role="group" aria-label="View">
+                <button type="button" class="is-on" data-view="front" aria-pressed="true">Front</button>
+                <button type="button" data-view="back" aria-pressed="false">Back</button>
+              </div>
+            </div>
+            <div class="card__body">
+              <div class="card__row">
+                <h3>Cracked Mask</h3>
+                <p class="price"><small>from</small> €74.90</p>
+              </div>
+              <p class="card__desc">A shattered white mask, one red eye and red veins creeping toward the pocket. The back continues the story.</p>
+              <ul class="chips"><li>All-over print</li><li>Front + back</li><li>Free shipping</li></ul>
+              <a class="btn btn--primary btn--block" href="https://www.etsy.com/listing/4585396632" target="_blank" rel="noopener">Buy on Etsy <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- B -->
+          <article class="card reveal" data-delay="1" style="--accent:#b56bff; --accent2:#6b5bff" data-card>
+            <div class="card__media">
+              <span class="card__tag">NT—02</span>
+              <div class="card__glow" aria-hidden="true"></div>
+              <img class="card__img card__img--front" src="assets/img/violet-eye-front-sm.webp" srcset="assets/img/violet-eye-front-sm.webp 495w, assets/img/violet-eye-front.webp 850w" sizes="(max-width: 700px) 90vw, 30vw" alt="Violet Eye hoodie, front" width="495" height="640" loading="lazy">
+              <img class="card__img card__img--back" src="assets/img/violet-eye-back-sm.webp" srcset="assets/img/violet-eye-back-sm.webp 488w, assets/img/violet-eye-back.webp 838w" sizes="(max-width: 700px) 90vw, 30vw" alt="Violet Eye hoodie, back" width="488" height="640" loading="lazy">
+              <div class="card__toggle" role="group" aria-label="View">
+                <button type="button" class="is-on" data-view="front" aria-pressed="true">Front</button>
+                <button type="button" data-view="back" aria-pressed="false">Back</button>
+              </div>
+            </div>
+            <div class="card__body">
+              <div class="card__row">
+                <h3>Violet Eye</h3>
+                <p class="price"><small>from</small> €74.90</p>
+              </div>
+              <p class="card__desc">A dark portrait with one glowing violet eye and a thorn-wrapped collar. Something is always watching your back.</p>
+              <ul class="chips"><li>All-over print</li><li>Front + back</li><li>Free shipping</li></ul>
+              <a class="btn btn--primary btn--block" href="https://www.etsy.com/listing/4585398447" target="_blank" rel="noopener">Buy on Etsy <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+
+          <!-- C -->
+          <article class="card reveal" data-delay="2" style="--accent:#22e4ff; --accent2:#3d7bff" data-card>
+            <div class="card__media">
+              <span class="card__tag">NT—03</span>
+              <div class="card__glow" aria-hidden="true"></div>
+              <img class="card__img card__img--front" src="assets/img/neon-rain-back-sm.webp" srcset="assets/img/neon-rain-back-sm.webp 488w, assets/img/neon-rain-back.webp 838w" sizes="(max-width: 700px) 90vw, 30vw" alt="Neon Rain hoodie, back" width="488" height="640" loading="lazy">
+              <img class="card__img card__img--back" src="assets/img/neon-rain-front-sm.webp" srcset="assets/img/neon-rain-front-sm.webp 495w, assets/img/neon-rain-front.webp 850w" sizes="(max-width: 700px) 90vw, 30vw" alt="Neon Rain hoodie, front" width="495" height="640" loading="lazy">
+              <div class="card__toggle" role="group" aria-label="View">
+                <button type="button" class="is-on" data-view="front" aria-pressed="true">Back</button>
+                <button type="button" data-view="back" aria-pressed="false">Front</button>
+              </div>
+            </div>
+            <div class="card__body">
+              <div class="card__row">
+                <h3>Neon Rain</h3>
+                <p class="price"><small>from</small> €74.90</p>
+              </div>
+              <p class="card__desc">Silver hair, a torn umbrella and glowing blue runes in the rain. A full back piece with the story carried onto the front.</p>
+              <ul class="chips"><li>All-over print</li><li>Back + front</li><li>Free shipping</li></ul>
+              <a class="btn btn--primary btn--block" href="https://www.etsy.com/listing/4585409476" target="_blank" rel="noopener">Buy on Etsy <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+
+        <div class="code-banner reveal">
+          <div>
+            <p class="code-banner__k">Limited offer</p>
+            <p class="code-banner__t">Take <b>10% off</b> any hoodie with code</p>
+          </div>
+          <button class="code-big" type="button" data-copy="NIGHT10" aria-label="Copy discount code NIGHT10">
+            <span>NIGHT10</span><small data-copy-label>Tap to copy</small>
+          </button>
+          <p class="code-banner__s">Enter it at Etsy checkout. Shipping is always free.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- DETAILS MATTER -->
+    <section class="section details" aria-labelledby="details-title">
+      <div class="container details__grid">
+        <div class="details__copy">
+          <p class="kicker reveal">Seam to seam</p>
+          <h2 class="display display--xl reveal" id="details-title" data-delay="1">DETAILS<br><span class="outline">MATTER.</span></h2>
+          <p class="reveal" data-delay="2">Not a tiny chest print. Every NightThreadShop hoodie is an all-over print: the artwork runs across the full front, the full back and the pocket, while the sleeves and hood stay deep black to frame it.</p>
+          <p class="reveal" data-delay="3">Look closer and you find the cracks in the mask, the thorns at the collar, the runes glowing under the rain. Original art, no fan art.</p>
+        </div>
+        <div class="details__art">
+          <figure class="art art--1 reveal" data-speed="-0.06"><img src="assets/img/cracked-mask-detail.webp" alt="Close-up of the Cracked Mask artwork: cracked mask and red eye" width="900" height="900" loading="lazy"><figcaption>01 · Cracked Mask</figcaption></figure>
+          <figure class="art art--2 reveal" data-delay="1" data-speed="0.05"><img src="assets/img/violet-eye-detail.webp" alt="Close-up of the Violet Eye artwork: one glowing violet eye" width="900" height="900" loading="lazy"><figcaption>02 · Violet Eye</figcaption></figure>
+          <figure class="art art--3 reveal" data-delay="2" data-speed="-0.03"><img src="assets/img/neon-rain-detail.webp" alt="Close-up of the Neon Rain artwork: silver-haired figure with blue runes" width="900" height="900" loading="lazy"><figcaption>03 · Neon Rain</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLLECTIONS -->
+    <section class="section collections" id="collections" aria-labelledby="col-title">
+      <div class="container">
+        <div class="section__head section__head--split">
+          <div>
+            <p class="kicker reveal">02 — Collections</p>
+            <h2 class="display reveal" id="col-title" data-delay="1">COLLECTIONS<span class="dot">.</span></h2>
+          </div>
+          <p class="section__lead reveal" data-delay="2">The Night Collection. Three chapters of one dark world, each one drawn as a full-body canvas.</p>
+        </div>
+
+        <div class="chapters">
+          <a class="chapter reveal" href="https://www.etsy.com/listing/4585396632" target="_blank" rel="noopener" style="--accent:#ff3d7f">
+            <div class="chapter__img"><img src="assets/img/cracked-mask-detail.webp" alt="" loading="lazy" width="900" height="900"></div>
+            <div class="chapter__body">
+              <span class="chapter__n">Ch. 01</span>
+              <h3>Cracked Mask</h3>
+              <p>Don't blink. The mask is on the front and the back.</p>
+              <span class="chapter__go">Shop on Etsy ↗</span>
+            </div>
+          </a>
+          <a class="chapter reveal" data-delay="1" href="https://www.etsy.com/listing/4585398447" target="_blank" rel="noopener" style="--accent:#b56bff">
+            <div class="chapter__img"><img src="assets/img/violet-eye-detail.webp" alt="" loading="lazy" width="900" height="900"></div>
+            <div class="chapter__body">
+              <span class="chapter__n">Ch. 02</span>
+              <h3>Violet Eye</h3>
+              <p>One violet eye, watching your back.</p>
+              <span class="chapter__go">Shop on Etsy ↗</span>
+            </div>
+          </a>
+          <a class="chapter reveal" data-delay="2" href="https://www.etsy.com/listing/4585409476" target="_blank" rel="noopener" style="--accent:#22e4ff">
+            <div class="chapter__img"><img src="assets/img/neon-rain-detail.webp" alt="" loading="lazy" width="900" height="900"></div>
+            <div class="chapter__body">
+              <span class="chapter__n">Ch. 03</span>
+              <h3>Neon Rain</h3>
+              <p>Silver hair. Torn umbrella. Glowing runes.</p>
+              <span class="chapter__go">Shop on Etsy ↗</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="angles reveal">
+          <figure><img src="assets/img/violet-eye-lf-sm.webp" alt="Violet Eye hoodie, left-front angle" width="420" height="640" loading="lazy"></figure>
+          <figure><img src="assets/img/violet-eye-rb-sm.webp" alt="Violet Eye hoodie, right-back angle" width="400" height="640" loading="lazy"></figure>
+          <figure><img src="assets/img/neon-rain-lf-sm.webp" alt="Neon Rain hoodie, left-front angle" width="420" height="640" loading="lazy"></figure>
+          <figure><img src="assets/img/neon-rain-rb-sm.webp" alt="Neon Rain hoodie, right-back angle" width="400" height="640" loading="lazy"></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNOLOGY -->
+    <section class="section tech" id="technology" aria-labelledby="tech-title">
+      <div class="tech__bg" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section__head">
+          <p class="kicker reveal">03 — Technology</p>
+          <h2 class="display reveal" id="tech-title" data-delay="1">TECHNOLOGY<br><span class="grad">ENGINEERED</span> FOR THE NIGHT.</h2>
+          <p class="section__lead reveal" data-delay="2">Every hoodie is the Printful All-Over Print Recycled Unisex Hoodie: each panel is printed, then cut and sewn, so the art covers the garment instead of sitting on top of it.</p>
+        </div>
+
+        <div class="specs">
+          <div class="spec reveal"><span class="spec__i">01</span><h3>Recycled polyester</h3><p>95% recycled polyester, 5% elastane when made in Latvia. 96% / 4% when made in the US or Mexico.</p></div>
+          <div class="spec reveal" data-delay="1"><span class="spec__i">02</span><h3>308 g/m² fabric</h3><p>9.08 oz/yd² fabric weight (may vary by 5%).</p></div>
+          <div class="spec reveal" data-delay="2"><span class="spec__i">03</span><h3>Soft outside, fleece inside</h3><p>A soft, cotton-feel fabric face with brushed fleece on the inside.</p></div>
+          <div class="spec reveal"><span class="spec__i">04</span><h3>Double-lined hood</h3><p>A double-lined hood that comes with drawstrings.</p></div>
+          <div class="spec reveal" data-delay="1"><span class="spec__i">05</span><h3>Cut &amp; sew print</h3><p>All-over synthetic print: panels are printed edge to edge, then cut and sewn with overlock seams.</p></div>
+          <div class="spec reveal" data-delay="2"><span class="spec__i">06</span><h3>Unisex style</h3><p>Unisex sizing. Check the size chart on each Etsy listing before you order.</p></div>
+        </div>
+        <p class="footnote reveal">Specs from Printful's product description of the All-Over Print Recycled Unisex Hoodie. Where fabric is double-layered (like the pocket), details from the inner layer may subtly show through.</p>
+      </div>
+    </section>
+
+    <!-- REELS -->
+    <section class="section reels" aria-labelledby="reels-title">
+      <div class="container">
+        <div class="section__head section__head--split">
+          <div>
+            <p class="kicker reveal">After dark</p>
+            <h2 class="display reveal" id="reels-title" data-delay="1">SEEN ON<br>TIKTOK<span class="dot">.</span></h2>
+          </div>
+          <div class="reveal" data-delay="2">
+            <p class="section__lead">Drops, reveals and the stories behind every design.</p>
+            <a class="btn btn--ghost" href="https://www.tiktok.com/@user7363761846395" target="_blank" rel="noopener">Follow @user7363761846395 <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="phones">
+          <a class="phone reveal" href="https://www.tiktok.com/@user7363761846395" target="_blank" rel="noopener" aria-label="Cracked Mask reel on TikTok" style="--accent:#ff3d7f">
+            <video muted loop playsinline preload="none" poster="assets/video/reel-cracked-mask-poster.jpg" data-autoplay><source src="assets/video/reel-cracked-mask.mp4" type="video/mp4"></video>
+            <span class="phone__label">Cracked Mask</span>
+          </a>
+          <a class="phone reveal" data-delay="1" href="https://www.tiktok.com/@user7363761846395" target="_blank" rel="noopener" aria-label="Violet Eye reel on TikTok" style="--accent:#b56bff">
+            <video muted loop playsinline preload="none" poster="assets/video/reel-violet-eye-poster.jpg" data-autoplay><source src="assets/video/reel-violet-eye.mp4" type="video/mp4"></video>
+            <span class="phone__label">Violet Eye</span>
+          </a>
+          <a class="phone reveal" data-delay="2" href="https://www.tiktok.com/@user7363761846395" target="_blank" rel="noopener" aria-label="Neon Rain reel on TikTok" style="--accent:#22e4ff">
+            <video muted loop playsinline preload="none" poster="assets/video/reel-neon-rain-poster.jpg" data-autoplay><source src="assets/video/reel-neon-rain.mp4" type="video/mp4"></video>
+            <span class="phone__label">Neon Rain</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div>
+          <p class="kicker reveal">04 — About</p>
+          <h2 class="display reveal" id="about-title" data-delay="1">BORN<br>AFTER <span class="glow-text">DARK.</span></h2>
+        </div>
+        <div class="about__copy">
+          <p class="big reveal">NightThreadShop turns original dark anime artwork into hoodies you can actually wear: masks, rain, glowing eyes and the quiet hours after midnight.</p>
+          <p class="reveal" data-delay="1">We are a small, independent shop. There is no warehouse full of stock: every hoodie is printed on demand by Printful after you order, so nothing is made that nobody wants. You shop and check out safely on Etsy.</p>
+          <div class="about__links reveal" data-delay="2">
+            <a class="btn btn--primary" href="https://www.etsy.com/shop/NightThreadShop" target="_blank" rel="noopener">Visit our Etsy shop ↗</a>
+            <a class="btn btn--ghost" href="https://www.tiktok.com/@user7363761846395" target="_blank" rel="noopener">TikTok ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq__grid">
+        <div class="faq__head">
+          <p class="kicker reveal">05 — FAQ</p>
+          <h2 class="display reveal" id="faq-title" data-delay="1">NEED TO<br>KNOW<span class="dot">.</span></h2>
+          <p class="reveal" data-delay="2">Still unsure? Message us through our Etsy shop and we will help.</p>
+        </div>
+        <div class="faq__list">
+          <details class="reveal" open>
+            <summary>How much is shipping?<i aria-hidden="true"></i></summary>
+            <div class="faq__a"><p>Shipping is free on every hoodie, so no shipping fee is added at Etsy checkout.</p></div>
+          </details>
+          <details class="reveal">
+            <summary>How long until my hoodie arrives?<i aria-hidden="true"></i></summary>
+            <div class="faq__a"><p>Each hoodie is printed on demand by Printful after you order, so it takes some days to produce before it ships. Etsy shows the estimated delivery date on the listing and at checkout.</p></div>
+          </details>
+          <details class="reveal">
+            <summary>Which size should I pick?<i aria-hidden="true"></i></summary>
+            <div class="faq__a"><p>Please check the size chart on the Etsy listing of your hoodie before ordering and compare it with a hoodie you already own. The cut is unisex.</p></div>
+          </details>
+          <details class="reveal">
+            <summary>Can I return or exchange it?<i aria-hidden="true"></i></summary>
+            <div class="faq__a"><p>Returns and exchanges follow our shop policy on Etsy, which you can read on the listing page and in the shop's policies section. Because every piece is made to order, please check sizing carefully first.</p></div>
+          </details>
+          <details class="reveal">
+            <summary>How do I use the discount code?<i aria-hidden="true"></i></summary>
+            <div class="faq__a"><p>Enter <button class="code-chip" type="button" data-copy="NIGHT10">NIGHT10</button> in the coupon field at Etsy checkout to get 10% off.</p></div>
+          </details>
+          <details class="reveal">
+            <summary>Where do I pay?<i aria-hidden="true"></i></summary>
+            <div class="faq__a"><p>All orders are placed and paid on Etsy. Every “Buy on Etsy” button opens the matching listing in a new tab.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final" aria-labelledby="final-title">
+      <div class="final__bg" aria-hidden="true"></div>
+      <div class="container final__inner">
+        <h2 class="display display--xl reveal" id="final-title">THE NIGHT<br>IS <span class="glow-text">SHORT.</span></h2>
+        <p class="reveal" data-delay="1">Free shipping. 10% off with code NIGHT10.</p>
+        <div class="final__actions reveal" data-delay="2">
+          <a class="btn btn--primary btn--lg" href="https://www.etsy.com/shop/NightThreadShop" target="_blank" rel="noopener">Visit our Etsy shop ↗</a>
+          <a class="btn btn--ghost btn--lg" href="#shop">See the hoodies</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a class="brand" href="#top"><span class="brand__name">NIGHT<span>THREAD</span></span></a>
+      <nav aria-label="Footer">
+        <a href="#shop">Shop</a><a href="#collections">Collections</a><a href="#technology">Technology</a><a href="#about">About</a><a href="#faq">FAQ</a>
+      </nav>
+      <div class="footer__social">
+        <a href="https://www.etsy.com/shop/NightThreadShop" target="_blank" rel="noopener">Etsy ↗</a>
+        <a href="https://www.tiktok.com/@user7363761846395" target="_blank" rel="noopener">TikTok ↗</a>
+      </div>
+    </div>
+    <div class="container footer__legal">
+      <p>© <span id="year">2026</span> NightThreadShop. Original artwork. Checkout handled by Etsy · Printed on demand by Printful.</p>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="main.js" defer></script>
+</body>
+</html>
